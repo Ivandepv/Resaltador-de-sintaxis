@@ -1,0 +1,9 @@
+comentario: (\#\|[\s\S]*?\|#|#.*|\/\*[\s\S]*?\*\/|\/\/.*|;.*|"""[\s\S]*?\"""|'''[\s\S]*?\''')
+reservado: \b(def|lambda|define|let|cond|void|int|float|double|return|class|begin|end|string|print|std|cout|endl)\b
+cadena: (".*?"|'.*?') 
+numero: \b(\d+(\.\d*)?|\.\d+)\b
+operador: (\+|-|\*|\/|%|==|!=|>|<|>=|<=|&&|:|::|=|\|\||!)
+booleano: \b(True|False|true|false)\b
+condicion: \b(if|else)\b
+ciclo: \b(for|while)\b
+funcion: \b\w+\s*\( 

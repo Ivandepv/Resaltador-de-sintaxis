@@ -1,0 +1,55 @@
+// Ejemplo de código en C++
+/*
+    Daniel Lujan
+*/
+#include <iostream>
+
+int main() {
+    int numero = 42;
+    std::string mensaje = "Hola desde C++!";
+    std::cout << mensaje << std::endl;
+
+    if (numero > 0) {
+        std::cout << "El número es positivo" << std::endl;
+    } else {
+        std::cout << "El número es cero o negativo" << std::endl;
+    }
+
+    return true;
+}
+
+
+# Ejemplo de código en Python
+def saludar(nombre):
+    """ 
+        Ivan Coronado
+    """
+    '''
+        Daniel Foraneo
+    '''
+    print("Hola,", nombre, "!")
+
+edad = 25
+if edad >= 18:
+    print("Eres mayor de edad.")
+else:
+    print("Eres menor de edad.")
+
+for i in range(1, 6):
+    print(i)
+
+
+
+; Ejemplo de código en Racket
+#|
+    Bruno Garxiola
+|#
+(define (factorial n)
+  (if (<= n 1)
+      1
+      (* n (factorial (- n 1)))))
+
+(displayln (factorial 5))
+
+(define lista '(1 2 3 4 5))
+(map (lambda (x) (* x 2)) lista)
