@@ -44,6 +44,8 @@ def generar_html(tokens):
     .funcion { color: yellow; }
     .ciclo { color: pink; }
     .condicion { color: brown; }
+    .estructuraOpen {color: cyan;}
+    .estructuraCierre {color: purple;}
     </style></head><body><pre>"""
     for categoria, token in tokens:
         html += f'<span class="{categoria}">{token}</span>'

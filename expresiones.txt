@@ -7,3 +7,5 @@ booleano: \b(True|False|true|false)\b
 condicion: \b(if|else)\b
 ciclo: \b(for|while)\b
 funcion: \b\w+\s*\( 
+estructuraOpen: \(|\{|\[
+estructuraCierre:  \}|\)|\]
